@@ -22,7 +22,7 @@ const menuIcons: MenuIconInterface[] = [
   {
     id: 1,
     title: "Github",
-    href: "https://github.com/kevnnard",
+    href: "https://github.com/juanse-08",
     icon: "GITHUB",
     icon2: "",
     size: "w-7 h-7",
@@ -31,21 +31,12 @@ const menuIcons: MenuIconInterface[] = [
   {
     id: 2,
     title: "Linkedin",
-    href: "https://www.linkedin.com/in/kevnnard/",
+    href: "https://www.linkedin.com/in/juan-sebastian-jimenez-a6993891/",
     icon: "LINKEDIN",
     icon2: "LINKEDIN2",
     size: "w-7 h-7",
     isSolid: true,
-  },
-  {
-    id: 3,
-    title: "Twitter",
-    href: "https://twitter.com/kevnnard",
-    icon: "TWITTER",
-    icon2: "",
-    size: "w-6 h-6",
-    isSolid: true,
-  },
+  }
 ];
 
 export const HeaderComponent = () => {
@@ -53,10 +44,10 @@ export const HeaderComponent = () => {
     <header className="sticky top-0 flex justify-between items-center py-5 backdrop-blur-sm z-50 ">
       <Avatar>
         <AvatarImage
-          src="https://github.com/kevnnard.png"
-          alt="Github Kevnnard"
+          src="https://github.com/juanse-08.png"
+          alt="Github Juanse-08"
         />
-        <AvatarFallback>Kevnnard</AvatarFallback>
+        <AvatarFallback>Juanse</AvatarFallback>
       </Avatar>
 
       <nav>
